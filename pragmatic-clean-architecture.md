@@ -34,4 +34,5 @@ These should be guiding your software development process
   - so it doesnt matter if you use a `SQL Database`, `Document Database` or a `Key Value Store`, these decisions should not affect how you model domain entities
 - **Bounded contexts**;
   - term from Domain Driven Design, the Bounded contexts is a conseptual model grouping related entities and behaviours together
-  - at a bare minimum your application should be a single bounded context, in some cases you would have more bounded contexts in a single application 
+  - at a bare minimum your application should be a single bounded context, in some cases you would have more bounded contexts in a single application
+  - see https://carlpaton.github.io/2020/04/domain-driven-design/
