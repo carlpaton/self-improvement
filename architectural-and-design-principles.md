@@ -1,5 +1,3 @@
-# Clean Architecture Fundamentals
-
 ## Architectural principles & Design principles
 
 ### Architectural Principles
