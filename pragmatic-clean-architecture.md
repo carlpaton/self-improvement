@@ -21,6 +21,8 @@ These should be guiding your software development process
   - see https://carlpaton.github.io/2018/03/pillars-of-object-oriented-programming-oop/
 - **Dependency inversion**;
   - components depend on abstractions at compile time and implementations at runtime
+  - dependancies flow inwards, the inner layers define abstractions/interfaces, the outer layers implement them
+  - this means the inner layers will not reference the outer layers
   - see https://carlpaton.github.io/2018/04/dependency-inversion-principle-dip/
 - **Explicit dependencies**;
   - components should be honest about their dependencies that they require to function properly, this improves the stability of your components
