@@ -1,4 +1,4 @@
-## Architectural principles & Design principles
+## Architectural & Design principles
 
 ### Architectural Principles
 
