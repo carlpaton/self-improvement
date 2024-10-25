@@ -22,6 +22,10 @@ These should be guiding your software development process
   - dependancies flow inwards, the inner layers define abstractions/interfaces, the outer layers implement them
   - this means the inner layers will not reference the outer layers
   - see https://carlpaton.github.io/2018/04/dependency-inversion-principle-dip/
+
+ ![image](https://github.com/user-attachments/assets/2c74010f-cfc5-4707-9a5a-b59458a77b83)
+
+
 - **Explicit dependencies**;
   - components should be honest about their dependencies that they require to function properly, this improves the stability of your components
 - **Single responsibility**;
