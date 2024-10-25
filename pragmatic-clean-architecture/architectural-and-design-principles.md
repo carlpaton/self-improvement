@@ -12,12 +12,12 @@ Architectural principles are the rules and guidelines that drive a specific soft
 
 These should be guiding your software development process
 
-- **Separation of concearns**; 
+- **Separation of concearns (SRP)**; 
   - here we would separate the concearns of the core domain from the external dependencies such as `database` and `user interface`
 - **Encapsulation**;
   - focus on hiding information from the outer components, also isolating your components from influence of outer components
   - see https://carlpaton.github.io/2018/03/pillars-of-object-oriented-programming-oop/
-- **Dependency inversion**;
+- **Dependency inversion (DIP)**;
   - components depend on abstractions at compile time and implementations at runtime
   - dependancies flow inwards, the inner layers define abstractions/interfaces, the outer layers implement them
   - this means the inner layers will not reference the outer layers
@@ -52,3 +52,16 @@ Simliar architectures that you may have heard of are which all revolve around th
 
 ![image](https://github.com/user-attachments/assets/0cc23b09-4ab5-4ceb-b94a-2dfa3dac87f3)
 
+### When is Clean Architecture right for me
+
+If you have been coding for a while you will know that its not a one size fits all, sometimes having too many abstractions make your code more complex than it needs to be. Some general fit use cases of `Clean Architecture` could be as follows
+
+- **Domain-Driven Design**;
+  - DDD fits naturally into the `domain layer` of Clean Architecture, its the central piece of the architecture
+- **Complex business logic**;
+  - When solving complex business logic, here Clean Architecture shines in isolating your business logic in the domain layer
+  - Through the Use Cases of the application layer
+- **High testability**;
+  - Clean Architecture is highly testable because of the way the components are designed, they follow SRP and DIP which both help a lot to improve testability
+- **Software architecture to enforce design policies**;
+  - In larger teams Clean Architecture is a good choice
