@@ -40,3 +40,15 @@ These should be guiding your software development process
   - term from Domain Driven Design, the Bounded contexts is a conseptual model grouping related entities and behaviours together
   - at a bare minimum your application should be a single bounded context, in some cases you would have more bounded contexts in a single application
   - see https://carlpaton.github.io/2020/04/domain-driven-design/
+
+### Domain Centric Architecture
+
+Clean architecture is not a new concept, its an evolution of `Domain Centric Architecture` which would have the core domain encapsulating main business logic / rules. This then has supporting components such as presentation and infastructure. This is a domain centric approach to organising dependencies.
+
+Simliar architectures that you may have heard of are which all revolve around the same idea of having a rich application core (the domain) which contains all business logic
+
+- Onion architecture
+- Hexagonal architecture
+
+![image](https://github.com/user-attachments/assets/0cc23b09-4ab5-4ceb-b94a-2dfa3dac87f3)
+
